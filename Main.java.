@@ -1,0 +1,53 @@
+Class GoodMorningThread extends Thread {
+
+public void run() {
+
+while (true) {
+
+System.out.println(x: "Good Morning");
+
+try {
+
+Thread.sleep(millis: 1000); // 1 second
+
+} catch (InterruptedException e) {
+
+System.out.println(e);
+
+
+
+}
+
+
+
+}
+
+
+
+}
+
+
+
+}
+
+
+
+class HelloThread extends Thread {
+
+public void run() {
+
+while (true) {
+
+
+
+System.out.println(x: "Hello");
+
+try {
+
+
+
+Thread.sleep(millis: 2000); // 2 seconds
+
+} catch (InterruptedException e) {
+
+Sustom out println/a١٠
